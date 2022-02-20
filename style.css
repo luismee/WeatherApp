@@ -1,4 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap');
+
 body{
+    font-family: 'Merriweather', serif;
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -6,12 +10,17 @@ body{
     
 }
 
+h1{
+    text-align: center;
+    margin-top: 30px!important;
+    color:white;
+}
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px 30px
+    padding: 30px 20px 30px;
 }
 
 header input{
@@ -26,7 +35,7 @@ header input{
    
 
     color: #313131;
-    font-size:22px;
+    font-size:16px;
     font-weight: 300;
     transition: 0.2s ease-out;
     
@@ -70,9 +79,9 @@ main{
 }
 
 .current-temp .weather{
-    color: white;font-size: 32px;
+    color: blueviolet;
+    font-size: 32px;
     font-weight: 700;
-    font-style: italic;
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0,0 , 0.4);
 }
